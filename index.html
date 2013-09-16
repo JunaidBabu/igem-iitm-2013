@@ -1,1 +1,413 @@
-Troll face
+<html lang="en" class="no-js">
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://d3awrefyh2q0ta.cloudfront.net/css/style.531afeef.min.css" media="screen">
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- For Overriding Defualt Wiki banners and links-->
+    <style type="text/css">
+      
+      #contentSub, #search-controls, .firstHeading, #footer-box, #catlinks, #p-logo {
+        display:none;
+      }
+      #top-section {
+        border: none;
+        height: 0px;
+      }
+      #menubar{
+        display: none;
+      }
+      #content {
+        background: none;
+        border: none;
+        width: 100%}
+      #bodyContent{
+        
+        width:100%;
+      }
+    </style>
+    
+    <!--Custom styles here-->
+    <style type="text/css">
+      #wrap {
+        width: 100%;
+        /* Spans the width of the page */
+        height: 5px;
+        
+        margin: 0;
+        /* Ensures there is no space between sides of the screen and the menu */
+        /* Makes sure that your menu remains on top of other page elements */
+        z-index: 100;
+        position: absolute;
+        padding-right: 0;
+        padding-top: 10px;
+      }
+      .navbar {
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        /* Ensures that the menu doesn’t affect other elements */
+        border-right: 1px solid #54879d;
+        
+      }
+      .navbar li  {
+        height: auto;
+        width: 165px;
+        /* Each menu item is 150px wide */
+        float: left;
+        /* This lines up the menu items horizontally */
+        text-align: center;
+        /* All text is placed in the center of the box */
+        list-style: none;
+        /* Removes the default styling (bullets) for the list */
+        font: normal bold 12px/1.2em Arial, Verdana, Helvetica;
+        
+        padding: 0;
+        margin: 0;
+        background-color: #366b82;
+      }
+      .navbar a {
+        
+        padding: 18px 0;
+        /* Adds a padding on the top and bottom so the text appears centered vertically */
+        border-left: 1px solid #54879d;
+        /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+        border-right: 1px solid #1f5065;
+        /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+        text-decoration: none;
+        /* Removes the default hyperlink styling. */
+        color: white;
+        /* Text color is white */
+        display: block;
+      }
+      .navbar li:hover, a:hover {
+        background-color: #54879d;
+      }
+      
+      .navbar li ul   {
+        z-index: 1001;
+        display: none;
+        /* Hides the drop-down menu */
+        height: auto;
+        
+        margin: 0;
+        /* Aligns drop-down box underneath the menu item */
+        padding: 0;
+        /* Aligns drop-down box underneath the menu item */     
+      }
+      
+      
+      .navbar li:hover ul   {
+        display: block;
+        /* Displays the drop-down box when the menu item is hovered over */
+      }
+      .navbar li ul li {
+        background-color: #54879d;
+      }
+      
+      .navbar li ul li a  {
+        border-left: 1px solid #1f5065;
+        
+        border-right: 1px solid #1f5065;
+        
+        border-top: 1px solid #74a3b7;
+        
+        border-bottom: 1px solid #1f5065;
+        
+      }
+      
+      .navbar li ul li a:hover  {
+        background-color: #366b82;
+      }
+      
+      #igemlogo{
+        max-width: 60%;
+      }
+      #iitmlogo{
+        position: absolute;
+        right: 70;
+        top: 0;
+        max-width: 6.5%;
+      }
+
+      header.row{
+        height: 65px;
+
+      }
+    </style>
+  </head>
+
+  <script type="text/javascript">
+      var a=0, b=0;
+        function OnScrollDiv (div) {
+          a=div.scrollY;
+          if(a<b){
+            $("#wrap").css({position: 'fixed', left: '65px', top: '92px'});
+          }else{
+            $("#wrap").css({position: 'absolute', right: '0px', top: '10px'});
+          }
+          b=a;
+
+        }
+    </script>
+  <body id="sort" class="picturefill-wait" onscroll="OnScrollDiv (this)">
+
+    <div class="container" >
+      <header class="row">
+        <div class="onecol first">
+          
+          <img id="igemlogo" src="http://upload.wikimedia.org/wikipedia/en/d/d6/IGEM_official_logo.png" width="42">
+          <img id="iitmlogo" src="http://www.hss.iitm.ac.in/images/logo_bw.png" width="10">
+          
+        </div>
+        <div class="middle">
+          <h1>
+            Indian Institute of Technology Madras
+          </h1>
+        </div>
+        
+        
+      </header>
+      <div id="wrap" >
+        <ul class="navbar">
+          <li>
+            <a href="#">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Team
+            </a>
+            
+          </li>
+          <li>
+            <a href="#">
+              project
+            </a>
+            <ul>
+              <li>
+                <a href="#" >
+                  Notebook
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Modeling
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  About
+                </a>
+              </li>
+            </ul>
+            
+          </li>
+          <li>
+            <a href="#">
+              Parts
+            </a>
+            
+          </li>
+          <li>
+            <a href="#">
+              Safety
+            </a>
+            
+          </li>
+          <li>
+            <a href="#">
+              Human Practices
+            </a>
+            
+          </li>
+          <li>
+            <a href="#">
+              Attributions
+            </a>
+            
+          </li>
+        </ul>
+      </div>
+      
+      <!--Paste into the middle of the head and foot-->
+      
+      <style type="text/css">
+              #slideshow {
+                
+                position: relative;
+                
+                width: 670px;
+                
+                height: 300px;
+                
+                z-index: 10;
+                padding: 10px;
+                
+                box-shadow: 0 0 20px rgba(0,0,0,0.4);
+                
+              }
+              
+              #slideshow > div {
+                
+                position: absolute;
+                
+                top: 10px;
+                
+                overflow: hidden;
+                left: 10px;
+                
+                z-index: 9;
+                right: 10px;
+                
+                bottom: 10px;
+                
+              }
+            </style>
+      <div id="main" role="main" class="homepage">
+        
+        
+        <div class="row hover-slides clearfix">
+          <div class="onecol first hover-text">
+            <div data-video="video1" class="slide1 current">
+              <h3>
+                Project Description
+              </h3>
+              
+              <p>
+                IIT Madras has had a very successful history at previous iGEM competitions. Shiga toxin is a deadly toxin secreted by Shigella dysenteriae and other shigatoxigenic bacteria. These bacteria inhabit the gastro-intestinal (GI) tract of cattle and produce a biofilm on the walls of the tract which is essential for the secretion of the toxin. According to statistics, more than 1 million people have been killed by the lethal toxin and many more have been infected. There is no established cure for this harmful toxin till date and this motivated us to come up with a feasible solution to this global problem using synthetic biology. Our idea mainly focuses on: Inhibiting biofilm production. Neutralizing the already produced toxin. For the first part, we have identified a compound, indole-3-acetaldehyde (I3A), which is a potent biofilm inhibitor. 
+              </p>
+              <a href="#" class="button green more-info">
+                Read More
+              </a>
+            </div>
+            
+          </div>
+          <div class="twocol last">
+            
+            <div id="slideshow">
+              <div>
+                <img src="http://www.advantagekarnataka.com/images/investment-sector/Inner-banners_Biotech.jpg">
+              </div>
+              <div>
+                <img src="http://www.gvpedia.com/uploads/images/hyderabad_biotech.jpg">
+              </div>
+              <div>
+                <img src="http://www.business-standard.com/newsimgfiles/image/biotechnology.jpg">
+              </div>
+              <div>
+                <img src="http://ipsnews-net.wpengine.netdna-cdn.com/Library/2013/05/biotech640-629x419.jpg">
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="row team-form">
+          <div class="onecol first">
+           
+              
+                <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash3/945977_532291323509340_604491180_n.jpg" alt="The Sort team">
+              
+            
+            <h3>
+              Team!
+            </h3>
+            <p>
+              Something about the iGEM IITM Team.
+            </p>
+          </div>
+          <div class="onecol">
+             <img src="http://upload.wikimedia.org/wikipedia/commons/2/25/Icon-round-Question_mark.jpg" alt="The Sort team">
+            <h3>
+              Branding??
+            </h3>
+            <p>
+              
+            </p>
+          </div>
+          <div class="onecol last form">
+            <h2>
+              Updates
+            </h2>
+            <marquee  behavior="scroll" direction="up">Am I going up?</marquee>
+          </div>
+        </div>
+      </div>
+      
+            <script type="text/javascript">
+              $("#slideshow > div:gt(0)").hide();
+              
+              setInterval(function() {
+                
+                $('#slideshow > div:first')
+                  .fadeOut(1000)
+                  .next()
+                  .fadeIn(1000)
+                  .end()
+                  .appendTo('#slideshow');
+              }
+                          ,  3000);
+            </script>
+      
+      <!--Copy till here only, that div is intentional-->
+      
+    </div>
+
+
+    <footer class="clearfix">
+      <div class="wrapper clearfix">
+        <nav class="nav-footer clearfix">
+          <li>
+            <a href="#">
+              Features
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Support
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Plans
+            </a>
+          </li>
+        </nav>
+        <div class="buttons">
+          
+          <a href="#" class="button blue">
+            Up to Top
+          </a>
+        </div>
+      </div>
+      <div class="bottom-links clearfix">
+        <div class="wrapper">
+          <div class="copyright">
+            <p>
+              &copy; | Copyright 2013 BetaTurtle |
+              <a href="#">
+                Made by Neo
+              </a>
+            </p>
+            <p class="links">
+              <a href="#" target="_blank">
+                Terms of Service
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body><!-- 
+  <script src="https://d3awrefyh2q0ta.cloudfront.net/js/script.d99575c2.min.js">
+  </script>
+  
+   -->
+</html>
